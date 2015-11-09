@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/main_textview"
+        android:layout_width="500dp"
+        android:layout_height="90dp"
+        android:textSize="20dp"
+        android:background="@drawable/border"/>
+    <TableLayout
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="100dp">
+        <TableRow>
+            <Button
+                android:id="@+id/main_cal_1"
+                android:text="1"
+                android:layout_width="85dp"
+                android:layout_height="85dp" />
+            <Button
+                android:id="@+id/main_cal_2"
+                android:text="2"
+                android:layout_width="85dp"
+                android:layout_height="85dp" />
+            <Button
+                android:id="@+id/main_cal_3"
+                android:text="3"
+                android:layout_width="85dp"
+                android:layout_height="85dp" />
+            <Button
+                android:id="@+id/main_cal_Plus"
+                android:text="+"
+                android:layout_width="85dp"
+                android:layout_height="85dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/main_cal_4"
+                android:text="4"
+                android:layout_width="85dp"
+                android:layout_height="85dp" />
+            <Button
+                android:id="@+id/main_cal_5"
+                android:text="5"
+                android:layout_width="85dp"
+                android:layout_height="85dp" />
+            <Button
+                android:id="@+id/main_cal_6"
+                android:text="6"
+                android:layout_width="85dp"
+                android:layout_height="85dp" />
+            <Button
+                android:id="@+id/main_cal_Minus"
+                android:text="-"
+                android:layout_width="85dp"
+                android:layout_height="85dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/main_cal_7"
+                android:text="7"
+                android:layout_width="85dp"
+                android:layout_height="85dp" />
+            <Button
+                android:id="@+id/main_cal_8"
+                android:text="8"
+                android:layout_width="85dp"
+                android:layout_height="85dp" />
+            <Button
+                android:id="@+id/main_cal_9"
+                android:text="9"
+                android:layout_width="85dp"
+                android:layout_height="85dp" />
+            <Button
+                android:id="@+id/main_cal_multiple"
+                android:text="*"
+                android:layout_width="85dp"
+                android:layout_height="85dp" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/main_cal_reset"
+                android:text="C"
+                android:layout_width="85dp"
+                android:layout_height="85dp" />
+            <Button
+                android:id="@+id/main_cal_0"
+                android:text="0"
+                android:layout_width="85dp"
+                android:layout_height="85dp" />
+            <Button
+                android:id="@+id/main_cal_divide"
+                android:text="/"
+                android:layout_width="85dp"
+                android:layout_height="85dp" />
+            <Button
+                android:id="@+id/main_cal_result"
+                android:text="="
+                android:layout_width="85dp"
+                android:layout_height="85dp" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
